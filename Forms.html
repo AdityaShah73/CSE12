@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is Form Tutorial</h2>
+    <form action="backend.php">
+        <label for="XYZ"> Name</label>
+        <div>
+             <input type="text" name="MyNAME" id="XYZ">
+
+        </div>
+        <br>
+        <div>
+            Role:  <input type="text" name="MyRole">
+
+        </div>
+        <br>
+        <div>
+            Email:  <input type="email" name="MyEMAIL" >
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="Date">
+        </div> 
+        <br>
+        
+        <div>
+            Are you eligible?: <input type="checkbox" name="MyEligibility" checked>
+        </div>
+        
+        <br>
+        
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender"> Other <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+           Write About Yourself: <br> <textarea name="MyText" cols="90" rows="15"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div> <br>
+        <div>
+        <label for="car">Car</label>
+        <select name="MyCar" id="car">
+            <option value="Hro">Hero</option>
+            <option value="Hunda">HONDA</option>
+            <option value="Kahawa">YAMAHA</option>
+            <option value="Polar" selected>PULSAR</option>
+            <option value="TOKYA">SWIFT</option>
+        </select>
+        </div>
+
+        
+      
+    </form>
+</body>
+</html>
