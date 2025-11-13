@@ -1,0 +1,29 @@
+#box1 {
+            border: 2px solid grey;
+            padding: 20px;
+            margin 10px;
+            color: beige;
+            background-color: rgb(104, 187, 193);
+        }
+
+        #box2 {
+            border: 2px solid grey;
+            padding: 20px;
+            margin 10px;
+            color: beige;
+            background-color: rgb(235, 235, 121);
+        }
+        #box3 {
+            border: 2px solid grey;
+            padding: 20px;
+            margin 10px;
+            color: beige;
+            background-color: rgb(205, 193, 71);
+        }
+        #box4 {
+            border: 2px solid grey;
+            padding: 20px;
+            margin 10px;
+            color: beige;
+            background-color: rgb(195, 115, 175);
+        }
